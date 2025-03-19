@@ -5,20 +5,11 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULY* ✅
+*EF-PRIME-MD SESSION ID INTEGRATION CONNECTED*
 
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
+NOTE DONT SHARE THE SESSION ID TO ANY
 
-*Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
-
-
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
-
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
+>FRANKKAUMBADEV 
 `;
 
 const { upload } = require('./mega');
